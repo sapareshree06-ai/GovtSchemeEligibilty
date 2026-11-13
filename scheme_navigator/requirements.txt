@@ -1,0 +1,7 @@
+streamlit>=1.40
+chromadb>=0.5
+langchain-core>=0.3
+langchain-text-splitters>=0.3
+langchain-ollama>=0.2        # local open-source LLM via Ollama
+pypdf>=4.0                   # only for PDF ingestion
+sentence-transformers>=3.0   # optional: multilingual embeddings (EMBED_MODEL)
